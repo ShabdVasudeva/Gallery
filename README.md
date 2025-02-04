@@ -27,15 +27,6 @@
 
 📌 <b><a href="https://www.pling.com/p/2209171/">Download from Pling</a></b>
 
----
-
-<h2>📸 Screenshots</h2>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/017acc9e-f52d-4c9c-aa16-fff6945775b2" width="250">
-  <img src="https://github.com/user-attachments/assets/511fd171-9d4d-4c23-9190-2e0787a39a2b" width="250">
-  <img src="https://github.com/user-attachments/assets/8f8b371e-0353-47d9-9051-8fa623d5662b" width="250">
-</p>
 
 ---
 
