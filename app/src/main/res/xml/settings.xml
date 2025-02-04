@@ -1,0 +1,25 @@
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.Preference
+        android:key="more"
+        android:title="More settings"
+        android:summary="More settings will coming soon due to time shortage we may introduce more settings in OneUI edition of this application Thanks For understanding……" />
+    <androidx.preference.Preference
+        android:key="pvt"
+        android:title="Private Safe" />
+    <androidx.preference.PreferenceCategory
+        android:key="cat1"
+        android:title="Developer Info">
+        <androidx.preference.Preference
+            android:key="about"
+            android:title="About us"
+            android:summary="information about our team and platform" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory
+        android:key="cat2"
+        android:title="Application Info">
+        <androidx.preference.Preference
+            android:key="app_info"
+            android:title="About App"
+            android:summary="Build 15.0.1 By @AndroidPortWorld" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

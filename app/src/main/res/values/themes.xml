@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- Base application theme. -->
+  <style name="Base.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">?attr/colorSurfaceContainer</item>
+        <item name="android:windowLightStatusBar">true</item>
+  </style>
+  <style name="AppTheme" parent="Base.AppTheme" />
+    <style
+        name="Theme.Apw.ToolbarCollapsed"
+        parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="Widget.App.MaterialDivider" parent="Widget.Material3.MaterialDivider">
+   <item name="dividerColor">@color/text_color</item>
+</style>
+    
+    <style
+        name="Theme.Apw.ToolbarExpanded"
+        parent="Theme.Apw.ToolbarCollapsed">
+        <item name="android:textSize">30dp</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+    <style
+        name="MyCardView"
+        parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialCardView.Cut</item>
+    </style>
+    <style
+        name="TextAppearance.Widget.Event.Toolbar.Title"
+        parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style
+        name="ShapeAppearanceOverlay.MaterialCardView.Cut"
+        parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">30dp</item>
+        <item name="cornerSizeTopLeft">30dp</item>
+        <item name="cornerSizeBottomRight">30dp</item>
+        <item name="cornerSizeBottomLeft">30dp</item>
+    </style>
+    <style
+        name="Text.style.Heading"
+        parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16.3dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/images"
+        android:name="Images"
+        android:icon="@drawable/main"
+        android:title="Images"
+        android:contentDescription="Images" />
+    
+    <item
+        android:id="@+id/albums"
+        android:name="Albums"
+        android:icon="@drawable/albums"
+        android:title="Albums"
+        android:contentDescription="Albums" />
+
+    <item
+        android:id="@+id/search"
+        android:name="Search"
+        android:icon="@drawable/search"
+        android:title="Search"
+        android:contentDescription="Search" />
+    
+    <item
+        android:id="@+id/utilities"
+        android:name="Utils"
+        android:icon="@drawable/generate"
+        android:title="Utils"
+        android:contentDescription="Utils" />
+    
+</menu>

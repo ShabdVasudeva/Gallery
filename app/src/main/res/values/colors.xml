@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="track_disabled">?attr/colorSurfaceContainerHighest</color>
+    <color name="track_enabled">?attr/colorPrimary</color>
+    <color name="overlay_light_primary">#9C4146</color>
+    <color name="overlay_light_onPrimary">#FFFFFF</color>
+    <color name="overlay_light_primaryContainer">#FFDADB</color>
+    <color name="overlay_light_onPrimaryContainer">#400008</color>
+    <color name="status">?attr/colorSurfaceContainer</color>
+    <color name="back">?attr/colorPrimaryContainer</color>
+    <!-- Letter tile colors -->
+    <color name="switch_thumb_checked_color">#6200EE</color>
+    <color name="switch_thumb_unchecked_color">#BDBDBD</color>
+    <color name="switch_track_checked_color">#6200EE30</color>
+    <color name="switch_track_unchecked_color">#BDBDBD30</color>
+    <color name="settingslib_switchbar_switch_track_tint">#BFFFFFFF</color>
+    <color name="settingslib_switchbar_switch_thumb_tint">@android:color/white</color>
+    <color name="letter_tile_default_color">@android:color/system_accent1_300</color>
+    <color name="letter_tile_font_color">@color/material_dynamic_neutral95</color>
+    <color name="Widget_Background">@android:color/system_neutral1_50</color>
+    <color name="Widget_Text">#ff000000</color>
+    <color name="Widget_PP_Controls">#ff000000</color>
+    <color name="image">?attr/colorSurfaceContainer</color>
+    <color name="black">#ff000000</color>
+    <color name="text_color">@android:color/system_accent1_700</color>
+    <color name="toolbar">?colorSurfaceContainer</color>
+    <!-- Color for the Progress bar -->
+    <color name="circular_progress_bar_background">#406E6E6E</color>
+    <color name="circular_progress_bar">#ffffff</color>
+
+    <!-- Color for the HAB -->
+    <color name="header_action_bar_cab">@android:color/system_neutral1_100</color>
+    <color name="tint">?attr/colorErrorContainer</color>
+    <array name="letter_tile_colors">
+        <item>@android:color/system_accent1_300</item>
+        <item>@android:color/system_accent2_300</item>
+        <item>@android:color/system_accent3_300</item>
+        <item>@android:color/system_accent1_400</item>
+        <item>@android:color/system_accent2_400</item>
+        <item>@android:color/system_accent3_400</item>
+        <item>@android:color/system_accent1_500</item>
+        <item>@android:color/system_accent2_500</item>
+        <item>@android:color/system_accent3_500</item>
+        <item>@android:color/system_accent1_600</item>
+        <item>@android:color/system_accent2_600</item>
+        <item>@android:color/system_accent3_600</item>
+    </array>
+
+    <array name="letter_tile_vibrant_dark_colors">
+        <item>@android:color/system_accent1_600</item>
+        <item>@android:color/system_accent2_600</item>
+        <item>@android:color/system_accent3_600</item>
+        <item>@android:color/system_accent1_700</item>
+        <item>@android:color/system_accent2_700</item>
+        <item>@android:color/system_accent3_700</item>
+        <item>@android:color/system_accent1_800</item>
+        <item>@android:color/system_accent2_800</item>
+        <item>@android:color/system_accent3_800</item>
+        <item>@android:color/system_accent1_900</item>
+        <item>@android:color/system_accent2_900</item>
+        <item>@android:color/system_accent3_900</item>
+    </array>
+</resources>
